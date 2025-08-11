@@ -1,0 +1,94 @@
+/* ProductConversion.css */
+
+.product-conversion-container {
+  flex: 1;
+  padding: 20px;
+  background-color: #f4f6f8;
+}
+
+.product-conversion-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form styling */
+.product-conversion-form {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-conversion-form input,
+.product-conversion-form select,
+.product-conversion-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.product-conversion-form button {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-conversion-form button:hover {
+  background-color: #218838;
+}
+
+/* Table styling */
+.product-conversion-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.product-conversion-table th,
+.product-conversion-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.product-conversion-table th {
+  background-color: #f8f9fa;
+  text-align: left;
+}
+
+.product-conversion-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.product-conversion-table button {
+  margin-right: 5px;
+  padding: 5px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.product-conversion-table .edit-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.product-conversion-table .edit-btn:hover {
+  background-color: #0056b3;
+}
+
+.product-conversion-table .delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.product-conversion-table .delete-btn:hover {
+  background-color: #c82333;
+}

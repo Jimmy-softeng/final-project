@@ -1,0 +1,26 @@
+.view-stock {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.view-stock h2 {
+  margin-bottom: 20px;
+}
+
+.view-stock table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.view-stock th,
+.view-stock td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.view-stock th {
+  background-color: #f0f0f0;
+}

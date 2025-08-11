@@ -1,0 +1,47 @@
+.add-supplier-container {
+  padding: 20px;
+  background: #fff;
+  border-radius: 6px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.add-supplier-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.add-supplier-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-supplier-form input[type="text"],
+.add-supplier-form input[type="email"],
+.add-supplier-form input[type="number"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.vat-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.add-supplier-form button {
+  padding: 10px;
+  border: none;
+  background-color: #34495e;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-supplier-form button:hover {
+  background-color: #2c3e50;
+}

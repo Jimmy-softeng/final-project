@@ -1,0 +1,108 @@
+.product-transfer {
+  padding: 20px;
+  background: #f9fafb;
+  border-radius: 8px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.product-transfer h2 {
+  margin-bottom: 15px;
+  color: #2d3748;
+}
+
+.transfer-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.transfer-form input,
+.transfer-form select {
+  padding: 8px;
+  border: 1px solid #cbd5e0;
+  border-radius: 4px;
+  flex: 1;
+  min-width: 120px;
+}
+
+.transfer-form button {
+  background-color: #3182ce;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.transfer-form button:hover {
+  background-color: #2b6cb0;
+}
+
+/* Table styles */
+.transfer-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transfer-table th,
+.transfer-table td {
+  padding: 10px;
+  border: 1px solid #e2e8f0;
+  text-align: left;
+}
+
+.transfer-table th {
+  background-color: #edf2f7;
+  font-weight: bold;
+}
+
+.transfer-table tr:nth-child(even) {
+  background-color: #f7fafc;
+}
+
+/* Action buttons */
+.transfer-table button {
+  background-color: #4a5568;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  margin-right: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.transfer-table button:hover {
+  opacity: 0.9;
+}
+
+.transfer-table button:first-child {
+  background-color: #3182ce; /* Edit */
+}
+
+.transfer-table button:last-child {
+  background-color: #e53e3e; /* Delete */
+}
+
+/* Edit mode row styling */
+.transfer-table tr.edit-mode {
+  background-color: #fffbea !important;
+}
+
+.transfer-table tr.edit-mode input,
+.transfer-table tr.edit-mode select {
+  border: 1px solid #ecc94b;
+  padding: 6px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.transfer-table tr.edit-mode button {
+  background-color: #38a169; /* Save button */
+}
+
+.transfer-table tr.edit-mode button:last-child {
+  background-color: #a0aec0; /* Cancel button */
+}

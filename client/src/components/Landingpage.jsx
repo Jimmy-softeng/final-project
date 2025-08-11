@@ -1,5 +1,6 @@
 import React from "react";
 import '../index.css';
+import Navbar from './Navbar';
 import Streamline from "./Streamline";
 import Monitoring from "./Monitoring";
 import Features from "./Features";
@@ -10,6 +11,7 @@ function Landingpage(){
     
     return(
         <div className="app">
+            <Navbar />
             <Streamline/>
             <Monitoring/>
             <Features/>

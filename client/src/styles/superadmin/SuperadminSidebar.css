@@ -1,0 +1,38 @@
+.superadmin-sidebar {
+  width: 220px;
+  height: 100vh;
+  background-color: #2c3e50;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.superadmin-sidebar h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ecf0f1;
+}
+
+.superadmin-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.superadmin-sidebar ul li {
+  margin-bottom: 15px;
+}
+
+.superadmin-sidebar ul li a {
+  text-decoration: none;
+  color: #ecf0f1;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.superadmin-sidebar ul li a:hover {
+  color: #1abc9c;
+}

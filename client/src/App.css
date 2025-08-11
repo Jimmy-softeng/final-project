@@ -39,10 +39,6 @@ button{
 button:hover {
   background-color: #1d4ed8;
 }
-/* Streamline */
-.streamline-section{
-  background-color: #f9fafe;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

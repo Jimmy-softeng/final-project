@@ -1,0 +1,11 @@
+.storekeeper-dashboard {
+  display: flex;
+  height: 100vh;
+  background-color: #f4f6f8;
+}
+
+.storekeeper-content {
+  flex: 1;
+  padding: 40px;
+  overflow-y: auto;
+}

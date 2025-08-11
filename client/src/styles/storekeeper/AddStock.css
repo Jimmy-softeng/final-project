@@ -1,0 +1,32 @@
+.add-stock {
+  padding: 40px;
+  max-width: 600px;
+}
+
+.add-stock form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-stock input,
+.add-stock select,
+.add-stock button {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}

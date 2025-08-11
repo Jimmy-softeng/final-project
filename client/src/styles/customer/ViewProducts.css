@@ -1,0 +1,32 @@
+.view-products {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.view-products h2 {
+  margin-bottom: 15px;
+}
+
+.view-products table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.view-products th,
+.view-products td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.view-products th {
+  background-color: #f0f0f0;
+}
+
+.view-products tr:hover {
+  background-color: #f5f5f5;
+}

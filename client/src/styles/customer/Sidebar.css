@@ -1,0 +1,31 @@
+.sidebar {
+  width: 220px;
+  background-color: #3939f3;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebar h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.sidebar a:hover {
+  color: #8ccfff;
+  cursor: pointer;
+}
+
+.sidebar a.logout {
+  margin-top: auto;
+  color: #ff5e5e;
+}
